@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<nav>
+<ul>
+<li><a href="#"> Home</a></li>
+<li><a href="#ingredient">Ingredients</a></li>
+<li><a href="#steps">Steps </a></li>
+
+</ul>
+
+</nav>
+<style>
+@media screen and (max-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media only screen and (max-width: 750px) and (min-width: 401px){
+  body {
+    background-color: lightblue;
+  }
+}
+@media screen and (min-width: 751px) {
+  body {
+    background-color: lightorange;
+  }
+}
+
+#Someotherlinks{
+display:block;	
+margin-left:7px;
+}
+
+
+* { margin: 0; padding: 0; }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ display:flex;
+  background-color: #333;
+}
+body{
+margin-top:0;	
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+p .red{font-style:normal;
+color:red;
+}
+
+
+p .punderline{
+text-decoration:underline;
+}
+.lastpara{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:24px;
+margin-left:7px;
+}
+p .italic{
+font-style:italic;	
+}
+	
+.finalimg {
+padding: 10px 10px 10px 10px;	
+
+}
+.finalimg > img{
+	 display: flex;
+ 	justify-content: space-around;
+}
+.recipeeimg
+{
+padding-left:5px;
+padding-bottom:5px;
+padding-top:5px;	
+width:600px;
+height:350px;
+}
+
+.lasagnaintro{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:24px;
+margin-left:7px;
+}
+.headingp{
+	margin-left:7px;
+padding-bottom:5px;
+	
+}
+#textdec{
+text-decoration:underline;
+text-align:center;
+color:	#FF8000;
+text-shadow: 1px 1px black;
+}
+
+	
+.steps{
+list-style-type:upper-roman;
+padding-left:60px;	
+}
+
+.steps li{
+	margin:4px 10px;
+font-size:18px;
+font-weight:bold;	
+color:#286C0B;
+text-shadow: 1px 1px black;
+padding-bottom:5px;		
+padding-left:0px;
+list-style-position:outside;
+}
+ol img{
+width:40%;
+display:flex;
+ justify-content: center;
+}
+
+#ingredient{
+	background-color:white;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:30px;
+	font-size:1.25em;
+	list-style-position:inside;
+	}
+	
+#ingredient ul,h2{
+	text-align: center;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lasagna Recipe</title><!--This is the title of the webpage-->
+</head>
+<body id="mainbody"><!-- This is where the main body of the web page begins  -->
+<h1 class="headingp" id="textdec">Vegetable Lasagna Step by Step</h1><!--The first heading-->
+<p class="lasagnaintro"><span class="red">Lasagna</span> may have its origins in some colorful and remote <span class="italic">Italian</span> kitchen, but by now this dish can be rightfully considered a citizen of the world. Is there a place left where a hot plate of lasagna, straight out of the oven, is not craved after? Lasagna is traditionally made with meat, tomato sauce and Parmesan cheese, but nowadays all kinds of cheese—especially mozzarella and ricotta—are added, as well as many kinds of vegetable.
+I <span class="italic"> like this dish</span> so much because first of all its loaded with cheese, not just chease <span class="punderline"> loads of cheese.</span> I like cheese too much and hence i like lasagna.. Also since it contains a lot of vegetable its kinda healthy too.</p>
+<div id="ingredient">
+<h2 class="headingp"> Ingredients required </h2><!--H2 used for the sub heading ingredients-->
+<ul ><!--the unordered list used for the ingredients-->
+<li> 1/4 Cup olive oil</li><!--list item tag used to list the items of the unorderd list-->
+<li>2 garlic cloves, chopped</li>
+<li>1 red onion, chopped</li>
+<li> 10 ripe tomatoes, chopped</li>
+<li>1 teaspoon oregano</li>
+<li>1 teaspoon sugar,</li>
+<ul> <li>Salt and pepper, to taste</li></ul>
+<li>1 bay leaf</li>
+<li>450g spinach leaves</li>
+<li>3 cups Ricotta cheese (or 1 1/2 cup Ricotta and 1 1/2 cup Mozzarella)</li>
+<li>1 box no-boil lasagna noodles</li>
+<li>2 cups Parmesan cheese</li>
+</ul><!--unordered list ends here-->
+</div>
+<h2 id="steps" class="headingp">Steps to make mouth watering vegetable lasagna :-</h2><!--Another subheading for the directioms to make lasagna-->
+<ol class="steps"> <!--ordered list dor the steps to make lasagna-->
+<li>  Heat half the olive oil in a large saucepan, over medium heat. Sauté 1 clove of garlic and 1/2 the onion, stirring for 3 minutes. </li>
+  <img class="recipee" src="https://images-gmi-pmc.edge-generalmills.com/bf0d2262-d68c-4279-8975-cae99afb3482.jpg"alt="onion" >  
+  <li>Add the tomato, oregano, sugar, salt, pepper and bay leaf, and stir for 5 more minutes</li>  
+<img src="https://images-gmi-pmc.edge-generalmills.com/9f2d0424-5a53-4e4c-80b0-025ca83e9cd9.jpg"alt="tomatoes">   
+<li> Put the lid on, and turn to medium low. Cook for 20 minutes, stirring every now and then. If it dries up, add a little bit of water, vegetable stock, or white wine.</li>
+<li> In the meantime, heat the rest of the oil in another large saucepan, over medium heat. </li>
+<li> 
+Sauté the rest of the garlic and onion for 3 minutes, and then add the spinach, in batches, stirring until it’s all thawed</li>  <img src="https://images-gmi-pmc.edge-generalmills.com/e3c8522f-90ec-48d2-9dc8-c9ccffc8d81c.jpg" alt="green onion">
+<li>Season with salt and pepper </li>
+<li> Turn the oven to 350 °F.</li>
+<li>When the tomato sauce is ready, separate it into 3 batches. Mix the first batch with the Ricotta (and Mozzarella, if using)</li>
+  
+<img src="https://images-gmi-pmc.edge-generalmills.com/20e2bbbf-5cd6-47e4-b850-8481fc09a4d9.jpg"alt="Tomato sauce" >  
+<li>Make a layer of pasta in the base of a 14 x 10 inch baking pan. </li>   <img src="https://images-gmi-pmc.edge-generalmills.com/5ff39619-4011-46b0-a378-a22bf079d122.jpg"alt="lasagna sheets" >  
+<li> Add the spinach, and top it with a layer of tomato sauce, using the second batch</li>  
+<img src="https://images-gmi-pmc.edge-generalmills.com/feec1b21-ca2c-4f0f-ba35-bb3171de2d80.jpg" alt="spinach">  
+<li> When making both these layers, use a spoon or spatula to spread everything well, covering the whole surface.</li>   <img src="https://images-gmi-pmc.edge-generalmills.com/f74d75f6-7b71-40f3-85d8-89bc72db4dc0.jpg"alt="Second Layer" >  
+<li>Top with another layer of pasta.  </li>  
+<li>Add the tomato and cheese mixture on top of the second layer of pasta, and then cover this with a third layer of pasta </li>  <img src="https://images-gmi-pmc.edge-generalmills.com/daf6686a-9cff-45e6-b36b-37432a57c729.jpg" alt="Third layer">  
+<li>Top the third layer of pasta with the third batch of tomato sauce, spreading well with a spoon, to cover the entire surface. </li><img src="https://images-gmi-pmc.edge-generalmills.com/1e0a142f-21bf-41cf-9df6-fdbd154013e5.jpg"alt="Last Layer" >  
+<li>Cover everything with the Parmesan cheese </li>  
+<img src="https://images-gmi-pmc.edge-generalmills.com/8a131515-6dcd-431f-a795-1aaf38da5e5d.jpg" alt="Smiling Face with Heart-Eyes">
+<li> Bake for 50 minutes, and let cool for at least 20 minutes before cutting. </li>  <img src="https://images-gmi-pmc.edge-generalmills.com/aa5f5764-8475-4eae-a11f-5040fc45d09f.jpg" alt="final dish">
+</ol>
+<h3 class="headingp">And there you have a mouth watering vegetarian lasagna for your family. </h3>
+
+<!-- ordered list ends here-->
+<p class="lastpara"> The lasagna <span> looks </span>layered full of cheese, mostly yellow, medium brown in color.The saucy red goodness with white cheese to finish it off made it perfect every time. Just about every good ingredient there is mixed into one to make the ultimate dinner course. And once you get the amazing course, even the way it sounds just sounds mouthwatering. The <span>smell</span>is the best smell in the world. The briny sauce and pasta combination it gives makes it smell fresh. The vegegtable and cheese also have a good combo make it tasty to look forward to.  The <span>taste </span>of it is amazing there are many ways to describe it. Such as the cheesy warm goodness of the taste that makes it amazing. Also the salty pasta layers it has, and can also add hot sauce to give it a little spice.</p>
+<img class="finalimg" src="https://i.ibb.co/VQZD6Mp/download.jpg" alt="Vegetable lasagna" width="250" height="153"><img class="finalimg" src="https://i.ibb.co/hKBKQkS/vegetable-lasagna-027-horiz.jpg" alt="Another vegetable lasagna" width="250" height="153">
+<h1 class="headingp"> Some Other Recipes to compare with my recipee.</h1>
+<ul id="Someotherlinks">
+<li><a href="https://cookieandkate.com/best-vegetable-lasagna-recipe/"> Best Vegetable Lasagna</a></li>
+<li><a href="https://www.theseasonedmom.com/quick-easy-vegetable-lasagna/">QUICK AND EASY VEGETABLE LASAGNA </a></li>
+<li><a href="https://www.allrecipes.com/recipe/11786/hearty-vegetable-lasagna/">Hearty Vegetable Lasagna </a></li>
+<li><a href="https://www.recipetineats.com/vegetarian-lasagna/"> Recipetineats Vegetarian Lasagna </a></li>
+<li><a href="https://www.simplyrecipes.com/recipes/vegetarian_spinach_and_mushroom_lasagna/">Vegetarian Spinach and Mushroom Lasagna </a></li>
+
+</ul>
+
+
+</body>
+</html>
